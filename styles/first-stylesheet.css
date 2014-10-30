@@ -1,0 +1,127 @@
+/*  Name: Faith Lutheran School
+    Date: October 2014
+    Description: CSS for school site
+    Version: 1.0
+    Author: Erin Stone
+*/
+
+/* Body */
+body{
+  background: #F5F4EF;
+  color: #000305;
+  font-size: 87.5%; 
+  font-family: 'Trebuchet MS', Trebuchet, 'Lucinda Sans Unicode', 'Lucinda Grande', Arial, sans-serif;
+  line-height: 1.429;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Headings */
+
+
+h2{
+  font-size: 1.571em;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: .8em;
+}
+
+
+/* Anchors */
+a{
+    outline: 0;
+}
+a:link, a:visited{
+  color: #C74350;
+  padding: 0 1px;
+  text-decoration: underline;
+}
+a:hover, a:active{
+  background-color: #C74350;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #333;
+}
+
+/* Paragraphs */
+p{
+  margin-bottom: 1.143em;
+}
+* p:last-child{
+  margin: 0;
+}
+
+strong, b{
+  font-weight: bold;
+}
+
+/* Lists */
+ul{
+  list-style: outside disc;
+  margin: 1em 0 1.5em 1.5em;
+}
+  
+li{
+  display: inline;
+}
+
+/* Header specific styling*/
+#banner{
+ /*background-color: #00d9ff;*/
+  background-image: url("../images/banner-background.png");
+  margin: 0 auto;
+  padding: 2.5em 0 0 0;
+}
+
+/* how the h1 should respond / look */
+#banner h1{
+  font-size: 3.571em;
+  
+}
+
+#banner h1 a:link,
+#banner h1 a:visited{
+  color: #003005;
+  display: block;
+  font-weight: bold;
+  margin: 0 0 .6em .2em;
+  text-decoration: none;
+}
+
+#banner h1 a:hover,
+#banner h1 a:active{
+  background: none;
+  color: #C74350;
+  text-shadow: none;
+}
+
+/* how the aside should look */
+#featured{
+  background: #fff;
+  margin-bottom: 2em;
+  overflow: hidden;
+  padding: 20px;
+  border: 2px solid #eee;
+  margin:0.75em 2em 0 5em;
+  border-radius: 10px;
+}
+
+#featured figure{
+  display: block;
+  float:right;
+}
+
+/*how the main content should look */
+#content{
+  background: #fff;
+  margin-bottom: 2em;
+  overflow: hidden;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+footer{
+  background-color: #00d9ff;
+  text-align: center;
+}
