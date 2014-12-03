@@ -19,8 +19,12 @@ body{
 
 /* Headings */
 
+h1{
+  font-family: 'Lobster Two', cursive;
+}
 
 h2{
+  font-family: 'Lobster Two', cursive;
   font-size: 1.571em;
   font-weight: 400;
   line-height: 1.1;
