@@ -38,3 +38,9 @@ img {
 .jumbotron {
    border: 1px solid red;
 }
+
+.head-row {
+   border: none;
+   margin: 0;
+}
+
