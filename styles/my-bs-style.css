@@ -44,3 +44,14 @@ img {
    margin: 0;
 }
 
+.col-sidebar {
+   border: 1px solid red;
+}
+
+.col-content h2{
+   text-align: center;
+}
+
+.col-content article {
+   padding: 0 10% 0 10%;
+}
