@@ -68,6 +68,13 @@ ul{
   
 li{
   display: inline;
+   padding: 2%;
+   font-size: 36px;
+}
+
+nav i {
+   padding-right: .5em;
+
 }
 
 /* Header specific styling*/
